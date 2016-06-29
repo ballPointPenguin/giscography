@@ -1,3 +1,4 @@
 {{#leaflet-map class="leaflet-map" lat=lat lng=lng zoom=zoom}}
   {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
+  {{cartodb-layer url='https://mmanson.cartodb.com/api/v2/viz/0dd81256-3d8c-11e6-92fb-0e674067d321/viz.json' zIndex=1}}
 {{/leaflet-map}}
